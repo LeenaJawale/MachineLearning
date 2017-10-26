@@ -226,7 +226,7 @@ def main():
    1. Loads the data from final_auto which is preprocessed based on p and r values.
    2. Calls the estimate function which in turn implements K- fold and returns final results of model.
     """
-    data = pd.read_csv('auto.csv')
+    data = pd.read_csv('auto_final.csv')
     estimate(data)
 
 
